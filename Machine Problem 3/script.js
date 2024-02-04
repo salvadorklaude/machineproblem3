@@ -8,7 +8,6 @@ function animateBox(day) {
     animatedBox.style.opacity = '1';
 
     setTimeout(() => {
-        animatedBox.style.transform = 'translateY(-100%)';
-        animatedBox.style.opacity = '0';
+        animatedBox.style.transform = 'translateY(-50%)'; 
     }, 1000); 
 }

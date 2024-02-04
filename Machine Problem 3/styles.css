@@ -19,24 +19,32 @@ button {
     cursor: pointer;
     color: #fff;
     border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition for background and transform */
 }
-#monday { background-color: #800080; }
-#tuesday { background-color: #e588eb; }
-#wednesday { background-color: #0000ff; }
-#thursday { background-color: #008000; }
-#friday { background-color: #ffff00; }
-#saturday { background-color: #ffa500; }
-#sunday { background-color: #ff0000; }
+
+button:hover {
+    background-color: #555; /* Darken the background color on hover */
+    transform: scale(1.1); /* Enlarge the button on hover */
+}
+
+#monday { background-color: #800080; border: 2px solid #4b004b; }
+#tuesday { background-color: #e588eb; border: 2px solid #b0e2ff; }
+#wednesday { background-color: #0000ff; border: 2px solid #000099; }
+#thursday { background-color: #008000; border: 2px solid #004d00; }
+#friday { background-color: #ffff00; border: 2px solid #999900; }
+#saturday { background-color: #ffa500; border: 2px solid #b27400; }
+#sunday { background-color: #ff0000; border: 2px solid #990000; }
+
 #animated-box {
     width: 100px;
     height: 100px;
     background-color: #3498db;
+    border: 2px solid #1c67a0; /* Light blue border */
     transition: all 0.5s ease-in-out;
     margin: 0 auto;
 }
 
 .hidden {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
 }
-
