@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Button Animation</title>
+</head>
+<body>
+    <div class="button-container">
+        <button id="monday" onclick="animateBox('monday')" data-color="#800080">Monday</button>
+        <button id="tuesday" onclick="animateBox('tuesday')" data-color="#f0f8ff">Tuesday</button>
+        <button id="wednesday" onclick="animateBox('wednesday')" data-color="#0000ff">Wednesday</button>
+        <button id="thursday" onclick="animateBox('thursday')" data-color="#008000">Thursday</button>
+        <button id="friday" onclick="animateBox('friday')" data-color="#ffff00">Friday</button>
+        <button id="saturday" onclick="animateBox('saturday')" data-color="#ffa500">Saturday</button>
+        <button id="sunday" onclick="animateBox('sunday')" data-color="#ff0000">Sunday</button>
+
+    </div>
+    
+    <div id="animated-box" class="hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

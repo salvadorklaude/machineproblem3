@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+#monday { background-color: #800080; }
+#tuesday { background-color: #e588eb; }
+#wednesday { background-color: #0000ff; }
+#thursday { background-color: #008000; }
+#friday { background-color: #ffff00; }
+#saturday { background-color: #ffa500; }
+#sunday { background-color: #ff0000; }
+#animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: all 0.5s ease-in-out;
+    margin: 0 auto;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
